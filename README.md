@@ -201,14 +201,3 @@ Regular user access reviews and a defined process for updating permissions when 
 
 Least privilege and monitoring address the insider threat, which is harder to eliminate completely but can be reduced considerably once excess permissions are cleaned up.
 
----
-
-# Limitations
-
-This assessment is an information-system level assessment based on a single control assessment covering **15 employees**.
-
-It should not be read as a view of NexG’s overall security posture.
-
-The ratings are qualitative and reflect professional judgement.
-
-I recommend that the mitigations be implemented, the controls retested, and the risks reassessed to confirm they have been reduced to an acceptable level, with access reviews repeated on a regular schedule so the improvement is sustained.
