@@ -73,7 +73,7 @@ The assessment focuses on user accounts, access permissions, security groups, ro
 An attacker uses a compromised account to access information.
 
 **Vulnerability:**  
-Sarah has Marketing access even though she works in Finance.
+User access is not checked against job responsibilities, so unnecessary permissions go unnoticed
 
 **Impact:**
 
@@ -88,7 +88,7 @@ Sarah has Marketing access even though she works in Finance.
 An employee uses old access after changing roles.
 
 **Vulnerability:**  
-Daniel still has IT access after moving to Sales.
+The organization has no defined process for reviewing and adjusting access following department changes.
 
 **Impact:**
 
@@ -103,7 +103,7 @@ Daniel still has IT access after moving to Sales.
 A former employee or attacker uses an active account.
 
 **Vulnerability:**  
-Emma’s account is still active after she resigned.
+The organization has not established a deprovisioning process for departing employees.
 
 **Impact:**
 
