@@ -108,7 +108,7 @@ Emma’s account is still active after she resigned.
 
 
 | Risk ID | Risk Scenario | Impact | Likelihood | Risk | Mitigation | NIST CSF 2.0 Mapping |
-|---|---|---|---|---|---|---|
+||
 | **R-03** | A former employee or attacker uses an active account. | Very High | High | **Very High** | Disable accounts immediately when employees leave and remove their access. Regularly review inactive accounts. | **PR.AA-05** |
 |---|---|---|---|---|---|---|
 | **R-01** | An attacker uses a compromised account to access information. | High | Moderate | **High** | Remove unnecessary permissions and regularly review user access based on job responsibilities. | **PR.AA-05** |
