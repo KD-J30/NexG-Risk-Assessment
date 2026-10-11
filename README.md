@@ -136,9 +136,6 @@ Employees may have more access than they need.
 
 # Risk Register
 
-Risks are listed in priority order.
-
-“Target residual risk” is the proposed rating after the recommended treatment is implemented and verified; it is a planning estimate to be confirmed by retesting.
 
 | Risk ID | Risk Scenario | Impact | Likelihood | Risk | Mitigation | NIST CSF 2.0 Mapping |
 |---|---|---|---|---|---|---|
@@ -151,7 +148,7 @@ Risks are listed in priority order.
 ---
 
 # Risk Matrix
-
+![Risk Matrix](https://github.com/KD-J30/NexG-Risk-Assessment/blob/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20230447.png)
 
 ---
 # Conclusion
