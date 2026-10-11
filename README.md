@@ -7,7 +7,7 @@
 
 Microsoft Entra ID is the identity and access management environment used by NexG Services Ltd to authenticate users and manage access to organizational resources.
 
-The environment processes employee identity and access data for **15 employees**.ethodoligy
+The environment processes employee identity and access data for 15 employees
 
 Microsoft Entra ID is used to authenticate employees and govern the access of the employees of NexG’s ongoing operations.
 
