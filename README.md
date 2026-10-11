@@ -88,7 +88,7 @@ Daniel still has IT access after moving to Sales.
 
 ---
 
-## R-03 — Former Employee Account
+## R-03 — Former Employee Active Account
 
 **Threat:**  
 A former employee or attacker uses an active account.
@@ -119,7 +119,7 @@ Authentication controls may not adequately protect accounts.
 
 ---
 
-## R-05 — Malicious Insider
+## R-05 — Insider Attacks
 
 **Threat:**  
 An employee intentionally misuses their access.
@@ -146,58 +146,14 @@ Risks are listed in priority order.
 | **R-04** | An attacker obtains an employee’s login details. | High | High | **Very High** | Enable MFA and regularly review authentication controls. | **PR.AA-03** |
 | **R-01** | An attacker uses a compromised account to access information. | High | Moderate | **High** | Remove unnecessary permissions and regularly review user access based on job responsibilities. | **PR.AA-05** |
 | **R-02** | An employee uses old access after changing roles. | High | Moderate | **High** | Review and update user permissions whenever an employee changes roles. | **PR.AA-05** |
-| **R-05** | An employee intentionally misuses their access. | High | Moderate | **High** | Apply least privilege, review access regularly, and use monitoring to detect inappropriate access. | **PR.AA-05** |
+| **R-05** | An employee intentionally misuses their access. | High | Moderate | **High** | Apply least privilege, review access regularly and use monitoring to detect inappropriate access. | **PR.AA-05** |
 
 ---
 
 # Risk Matrix
 
-| **Impact / Likelihood** | **Low** | **Moderate** | **High** | **Very High** |
-|---|---|---|---|---|
-| **Very High** | | | | **R-03** |
-| **High** | | | **R-04** | |
-| **Moderate** | | | **R-01, R-02, R-05** | |
-| **Low** | | | | |
 
 ---
-
 # Conclusion
-
-Overall, my assessment is that user access management at NexG Services Ltd presents a **high level of risk**.
-
-All five risks identified fall in the **High or Very High** categories, and in my view none of them should be accepted in their current state.
-
-- **R-03 (former employee account): Very High**
-- **R-04 (compromised credentials): Very High**
-- **R-01 (excessive user permissions): High**
-- **R-02 (outdated permissions): High**
-- **R-05 (malicious insider): High**
-
-What stands out is that these are not five isolated issues.
-
-They share a common root cause: access is not consistently governed across the identity lifecycle, from joining and changing roles through to leaving the organization, and authentication may not be strong enough to compensate when that governance fails.
-
-This is reflected in the NIST CSF 2.0 mapping, where four of the five risks fall under **PR.AA-05** and the remaining one under **PR.AA-03**.
-
-Fixing them one by one would be less effective than strengthening the underlying access review and deprovisioning process.
-
-## Risk Treatment Priority
-
-I would prioritize treatment in the following order:
-
-### 1. R-03 — Former Employee Account
-
-An active account belonging to a former employee is the most direct and most avoidable route to unauthorized access, so removing access immediately on departure should be treated as a non-negotiable control.
-
-### 2. R-04 — Compromised Credentials
-
-Enforcing MFA is a relatively low-effort, high-value measure that reduces the impact of stolen credentials across every other scenario.
-
-### 3. R-01 and R-02 — Excessive and Outdated Access
-
-Regular user access reviews and a defined process for updating permissions when roles change would remove excessive and outdated access before it can be abused.
-
-### 4. R-05 — Malicious Insider
-
-Least privilege and monitoring address the insider threat, which is harder to eliminate completely but can be reduced considerably once excess permissions are cleaned up.
+The assessment indicates that user access management at NexG Services Ltd presents a high level of risk, with all five identified risks classified as High or Very High. These findings highlight weaknesses in access governance throughout the user identity lifecycle, particularly in managing excessive permissions, role changes and employee departures . The NIST CSF 2.0 mapping further reflects these concerns. Recommendations to mitigate these risks are : implementing quarterly access recertification by department manager; mandatory access reviews following role changes and automated deprovisioning to ensure that access is  revoked when an employee leaves the organisation.  
 
