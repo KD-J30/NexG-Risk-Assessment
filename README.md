@@ -21,26 +21,26 @@ It is an information-system level risk assessment, not comprehensive of all thre
 
 ### Items in Scope
 
+### Items in Scope
+
 - Microsoft Entra ID user accounts
-- Authentication
 - Security group memberships
 - User access permissions
-- Department-based access
 - Employee role changes
 - Employee departures
-- Access review activities
-- Account deprovisioning
-- Least-privilege considerations
+- Account deactivation
+- Excessive or unnecessary access
+
 
 **Population: 15 employees**
 
 ## Purpose
 
-The purpose of this risk assessment is to identify, evaluate, and prioritize cybersecurity risks affecting user access management at NexG Services Ltd.
+The purpose of this risk assessment is to identify, evaluate and prioritize cybersecurity risks affecting user access management at NexG Services Ltd.
 
-The assessment focuses on user accounts, access permissions, security groups, authentication, role changes, and employee departures within Microsoft Entra ID.
+The assessment focuses on user accounts, access permissions, security groups, role changes and employee departures within Microsoft Entra ID.
 
-It aims to determine whether inappropriate, excessive, or outdated access could result in unauthorized access to NexG’s business resources or information.
+
 
 ---
 
@@ -113,6 +113,7 @@ Emma’s account is still active after she resigned.
 | **R-01** | An attacker uses a compromised account to access information. | High | Moderate | **High** | Remove unnecessary permissions and regularly review user access based on job responsibilities. | **PR.AA-05** |
 | **R-02** | An employee uses old access after changing roles. | High | Moderate | **High** | Review and update user permissions whenever an employee changes roles. | **PR.AA-05** |
 
+For priority of the risk refer to https://github.com/KD-J30/NexG-Risk-Assessment/raw/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20230331.png
 # Risk Matrix
 ![Risk Matrix](https://github.com/KD-J30/NexG-Risk-Assessment/blob/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20233414.png)
 
