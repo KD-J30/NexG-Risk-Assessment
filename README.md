@@ -118,7 +118,7 @@ Emma’s account is still active after she resigned.
 ---
 
 # Risk Matrix
-![Risk Matrix](https://github.com/KD-J30/NexG-Risk-Assessment/blob/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20230447.png)
+![Risk Matrix](https://github.com/KD-J30/NexG-Risk-Assessment/blob/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20233414.png)
 
 ---
 # Conclusion
