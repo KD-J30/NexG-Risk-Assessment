@@ -102,37 +102,7 @@ Emma’s account is still active after she resigned.
 - **Integrity:** Information could be changed or deleted.
 - **Availability:** Resources could be disrupted.
 
----
 
-## R-04 — Compromised Credentials
-
-**Threat:**  
-An attacker obtains an employee’s login details.
-
-**Vulnerability:**  
-Authentication controls may not adequately protect accounts.
-
-**Impact:**
-
-- **Confidentiality:** Unauthorized access to information.
-- **Integrity:** Information could be changed without permission.
-
----
-
-## R-05 — Insider Attacks
-
-**Threat:**  
-An employee intentionally misuses their access.
-
-**Vulnerability:**  
-Employees may have more access than they need.
-
-**Impact:**
-
-- **Confidentiality:** Information could be disclosed or stolen.
-- **Integrity:** Information could be changed or deleted.
-
----
 
 # Risk Register
 
@@ -140,10 +110,9 @@ Employees may have more access than they need.
 | Risk ID | Risk Scenario | Impact | Likelihood | Risk | Mitigation | NIST CSF 2.0 Mapping |
 |---|---|---|---|---|---|---|
 | **R-03** | A former employee or attacker uses an active account. | Very High | High | **Very High** | Disable accounts immediately when employees leave and remove their access. Regularly review inactive accounts. | **PR.AA-05** |
-| **R-04** | An attacker obtains an employee’s login details. | High | High | **Very High** | Enable MFA and regularly review authentication controls. | **PR.AA-03** |
+
 | **R-01** | An attacker uses a compromised account to access information. | High | Moderate | **High** | Remove unnecessary permissions and regularly review user access based on job responsibilities. | **PR.AA-05** |
 | **R-02** | An employee uses old access after changing roles. | High | Moderate | **High** | Review and update user permissions whenever an employee changes roles. | **PR.AA-05** |
-| **R-05** | An employee intentionally misuses their access. | High | Moderate | **High** | Apply least privilege, review access regularly and use monitoring to detect inappropriate access. | **PR.AA-05** |
 
 ---
 
@@ -152,5 +121,5 @@ Employees may have more access than they need.
 
 ---
 # Conclusion
-The assessment indicates that user access management at NexG Services Ltd presents a high level of risk, with all five identified risks classified as High or Very High. These findings highlight weaknesses in access governance throughout the user identity lifecycle, particularly in managing excessive permissions, role changes and employee departures . The NIST CSF 2.0 mapping further reflects these concerns. Recommendations to mitigate these risks are : implementing quarterly access recertification by department manager; mandatory access reviews following role changes and automated deprovisioning to ensure that access is  revoked when an employee leaves the organisation.  
+The assessment indicates that user access management at NexG Services Ltd presents a high level of risk, with all 3 identified risks classified as High or Very High. These findings highlight weaknesses in access governance throughout the user identity lifecycle, particularly in managing excessive permissions, role changes and employee departures . The NIST CSF 2.0 mapping further reflects these concerns. Recommendations to mitigate these risks are : implementing quarterly access recertification by department manager; mandatory access reviews following role changes and automated deprovisioning to ensure that access is revoked when an employee leaves the organisation.  
 
