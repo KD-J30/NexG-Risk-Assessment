@@ -19,7 +19,7 @@ The assessment considers whether user access is correct for employees’ current
 
 It is an information-system level risk assessment, not comprehensive of all threats and vulnerabilities to the organization. It is limited to findings and conditions identified during the User Access Review control assessment.
 
-### Items in Scope
+
 
 ### Items in Scope
 
