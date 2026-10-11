@@ -113,7 +113,7 @@ Emma’s account is still active after she resigned.
 | **R-01** | An attacker uses a compromised account to access information. | High | Moderate | **High** | Remove unnecessary permissions and regularly review user access based on job responsibilities. | **PR.AA-05** |
 | **R-02** | An employee uses old access after changing roles. | High | Moderate | **High** | Review and update user permissions whenever an employee changes roles. | **PR.AA-05** |
 
-For priority of the risk refer to https://github.com/KD-J30/NexG-Risk-Assessment/raw/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20230331.png
+For priority of the risk refer to ( https://github.com/KD-J30/NexG-Risk-Assessment/raw/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20230331.png) for the risk score
 # Risk Matrix
 ![Risk Matrix](https://github.com/KD-J30/NexG-Risk-Assessment/blob/main/nexG%20risk%20assessment/Screenshot%202026-10-11%20233414.png)
 
