@@ -12,14 +12,14 @@ The environment processes employee identity and access data for **15 employees**
 Microsoft Entra ID is used to authenticate employees and govern the access of the employees of NexG’s ongoing operations.
 
 # Methodology 
-Define Scope
-Identify the assets in scope 
-Identify the threat and vulnerability for each finding.
-Rate the likelihood of the threat
-Rate the impact of the threat
-Combine the two using to get risk level.
-Map risk in a risk matrix
-Recommend mitigations and map them to framework e.g NIST CSF 2.0.
+-Define Scope
+-Identify the assets in scope 
+-Identify the threat and vulnerability for each finding.
+-Rate the likelihood of the threat
+-Rate the impact of the threat
+-Combine the two using to get risk level.
+-Map risk in a risk matrix
+-Recommend mitigations and map them to framework e.g NIST CSF 2.0.
 
 ## Scope
 
